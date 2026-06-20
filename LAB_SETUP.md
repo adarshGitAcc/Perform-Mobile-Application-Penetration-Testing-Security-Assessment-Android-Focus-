@@ -21,7 +21,7 @@ The following core utilities were manually installed, verified, and added to the
 * **APKTool (v3.0.2):** Configured with the appropriate wrapper script for binary resource decoding and rebuilding.
 * **Jadx-GUI (v1.5.5):** Decompiler environment for translating Dalvik executable (`.dex`) bytecode into human-readable Java code.
 * **Frida (v17.15.0):** Installed via `pip install frida-tools` on the host, paired with a matching-version `frida-server` binary pushed to the emulator (`/data/local/tmp`) and executed with root privileges for runtime instrumentation.
-* **MobSF (Mobile Security Framework):** Deployed locally for automated static analysis scanning, supplementing the manual JADX/APKTool review.
+
 * **Burp Suite Community Edition (v2026.4.3):** Configured as an intercepting proxy for runtime network traffic analysis (see Section 5).
 
 ---
